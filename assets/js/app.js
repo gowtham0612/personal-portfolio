@@ -139,7 +139,8 @@ let footer = $(`
               </div>
               <form action="https://formsubmit.co/bd642ed36c32bf03f390aebb3173d380" method="POST" target="_blank" />
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
+                  <input id="email" type="email" name="email" placeholder="Email Address" required/>  
+                  <input id="phone" type="text" name="tel" placeholder="Phone Number ( optional )"maxLength="10" required/>                  
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
               
                   <div id="main">
